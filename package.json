@@ -8,12 +8,12 @@
     "eslint": "^7.20.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node main.js"
   },
   "name": "Apify-sdk-tutorial",
   "version": "0.0.1",
   "description": "Apify SDK tutorial",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "https://github.com/vladyslav-n/Apify-sdk-tutorial.git",
   "author": "Vladyslav Nazarenko <fonclhe@gmail.com>",
   "license": "MIT"

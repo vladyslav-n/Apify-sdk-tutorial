@@ -11,17 +11,19 @@ Apify SDK tutorial
 
 *What is the main difference between Cheerio and JQuery?*
 
-
+jQuery runs in a browser and attaches directly to the browser's DOM. Cherio parses html from HTTP responses, the same pages you would get in your browser when you first load a URL. The result is the typical $ function, just like in JQuery.
 
 ***
 
 *When would you use CheerioCrawler and what are its limitations?*
 
-
+CheerioCrawler cannot execute JavaScript so it it is not a good fit for pages the content of which depends much on the dynamic elements. Though Cheerio is fast and needs less resources than Puppeteer, so it is a very good choice for the cases where we can avoid difficulties with dynamic content.
 
 ***
 
 *What are the main classes for managing requests and when and why would you use one instead of another?*
+
+There are 3 crawler classes available for use in the Apify SDK. BasicCrawler, CheerioCrawler and PuppeteerCrawler.
 
 
 
